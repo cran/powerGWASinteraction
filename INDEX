@@ -1,1 +1,3 @@
-powerGWASinteraction   Power calculations for identifying interactions in a GWAS
+powerGWASinteraction   Depreciated function
+powerGG	Power for GxG interactions in genetic association studies
+powerGE	Power for GxE interactions in genetic association studies
