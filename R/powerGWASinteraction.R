@@ -563,7 +563,8 @@ powerGE <- function(n, power, model, caco=0.5, alpha=0.05, alpha1, maintain.alph
 		final.alpha <- c(NA,alpha.expected)[i1]
 		z.expected <- qnorm(1-alpha.expected/2)
 		z.fixed <- qnorm(1-alpha1/2)
-		prob.larger <- c(1,1-pnorm(z.fixed - z.expected))[i1]
+###### Calculation of the probability of the screening statistics greater than the threshold
+		prob.larger <- c(1,(1+pnorm(-z.fixed-z.expected)-pnorm(z.fixed - z.expected)))[i1]
 		no.tests <- ceiling(nSNP*c(1,rep(alpha1,4)))[i1]
 		if(no.tests == 0)powwow <- 0
 		else{
@@ -642,7 +643,8 @@ powerGE <- function(n, power, model, caco=0.5, alpha=0.05, alpha1, maintain.alph
 		final.alpha <- matrix(c(NA,alpha.expected),ncol=5,nrow=3)
 		z.expected <- qnorm(1-alpha.expected/2)
 		z.fixed <- qnorm(1-alpha1/2)
-		prob.larger <- c(1,1-pnorm(z.fixed - z.expected))
+###### Calculation of the probability of the screening statistics greater than the threshold
+  		prob.larger <- c(1,(1+pnorm(-z.fixed-z.expected)-pnorm(z.fixed - z.expected)))
 		no.tests <- ceiling(nSNP*c(1,rep(alpha1,4)))
 		for (i in 1:5){
 			if (no.tests[i] == 0){

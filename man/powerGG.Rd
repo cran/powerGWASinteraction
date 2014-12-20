@@ -1,6 +1,6 @@
 \name{powerGG}
 \alias{powerGG}
-\title{Power for GxE interactions in genetic association studies}
+\title{Power for GxG interactions in genetic association studies}
 \description{This routine carries out (analytical, approximate) power calculations for identifying Gene-Gene interactions in Genome Wide Association Studies}
 \usage{powerGG(n, power, model, caco, alpha, alpha1)}
 \arguments{

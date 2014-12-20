@@ -1,7 +1,7 @@
-b91b61179a6cdc243017bf00354dbb1f *DESCRIPTION
+cd80c11c7ee1d55d5f99df485ec8f80f *DESCRIPTION
 562760ba47cedc9cd7ddc9b3832638f4 *INDEX
 f29ff6e76c3752feb311d4b30ef79ef3 *NAMESPACE
-03578aa0bd7ea21e7e1d4fd33571435f *R/powerGWASinteraction.R
+a6460bc093bfc631bbbf90a28e046a3a *R/powerGWASinteraction.R
 486219d5aa7c918774117b359bb14729 *man/powerGE.Rd
-31c736963c0cbfa2a2d347b47df9c2e3 *man/powerGG.Rd
+ee72be6f69603a167bba3fe8c228cfc8 *man/powerGG.Rd
 6c0fd3fa06ac5ce1d0099fbd9965c425 *man/powerGWASinteraction.Rd
