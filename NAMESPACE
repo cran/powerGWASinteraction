@@ -7,3 +7,4 @@ exportPattern(".")
 import(
   mvtnorm,pwr
 )
+importFrom("stats", "cov2cor", "dbinom", "nlminb", "pchisq", "pnorm", "qbinom", "qnorm")

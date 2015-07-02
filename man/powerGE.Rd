@@ -87,8 +87,8 @@ Gene-environment interaction in genome-wide association studies.
 
 
 \author{
-Li Hsu \email{lih@fhcrc.org} and
-Charles Kooperberg \email{clk@fhcrc.org}.
+Li Hsu \email{lih@fredhutch.org} and
+Charles Kooperberg \email{clk@fredhutch.org}.
 }
 
 

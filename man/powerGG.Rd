@@ -23,7 +23,7 @@ the prevalence needs to be low.
 for the case-control and case-only approaches if \code{power} is specified.}
 \references{Kooperberg C, LeBlanc M (2008). Increasing the power of identifying gene x gene interactions in genome-wide association studies.
 \emph{Genetic Epidemiology}, \bold{32}, 255-263.}
-\author{Charles Kooperberg, \email{clk@fhcrc.org}}
+\author{Charles Kooperberg, \email{clk@fredhutch.org}}
 \examples{
 mod1 <- list(prev=0.05, pGene1=0.3, pGene2=0.3, beta.LOR=c(0,0,.6),nSNP=500000)
 powerGG(n=10000,mod=mod1,caco=0.5,alpha=.05,alpha1=.001)
